@@ -1,0 +1,19 @@
+.cards-container {
+    display: grid;
+    margin-left: 3%;
+
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px;
+    justify-items: center;
+
+}
+
+.cards-all-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}

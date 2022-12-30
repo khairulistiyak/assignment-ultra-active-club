@@ -1,0 +1,23 @@
+.header-container h4 {
+    text-align: left;
+    padding-left: 5%;
+    margin-top: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.logo-size img {
+    width: 88px;
+    border-radius: 100%;
+
+
+}
+
+.header-name {
+    padding-left: 70px;
+    color: blueviolet;
+}

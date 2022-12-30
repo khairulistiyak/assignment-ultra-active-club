@@ -1,0 +1,87 @@
+.profile-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    margin-top: 20px;
+
+
+}
+
+.profile-section img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.nk-name {
+    color: grey;
+}
+
+.calculation {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.calculation p {
+    margin-top: 0;
+}
+
+.calculation h2 {
+    margin-bottom: 0;
+}
+
+.calculation small {
+    color: rgb(151, 151, 151);
+    font-size: 15px;
+}
+
+
+.break-container h3 {
+    text-align: left;
+}
+
+.break {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: whitesmoke;
+    align-items: center;
+    justify-items: center;
+    height: 70px;
+    border-radius: 10px;
+
+}
+
+.break-time {
+    display: grid;
+    background-color: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    align-content: center;
+
+
+}
+
+.break-time :hover {
+    display: grid;
+    background-color: blueviolet;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    align-content: center;
+    color: white;
+}
+
+.break h5 {
+    text-align: center;
+    margin: 0;
+}
+
+
+.exercise-time {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: whitesmoke;
+
+}
