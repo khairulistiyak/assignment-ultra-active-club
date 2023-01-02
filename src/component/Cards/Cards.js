@@ -22,7 +22,7 @@ const Cards = () => {
 
                 <div className='cards-container'>
                     <div className='card'>
-                        {exercises.map(exercise => <Card exercise={exercise}></Card>)}
+                        {exercises.map(exercise => <Card key={exercise.id} exercise={exercise}></Card>)}
                     </div>
                 </div>
             </div>

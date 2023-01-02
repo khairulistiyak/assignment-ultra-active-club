@@ -2,7 +2,7 @@ import React from 'react';
 import "./Card.css"
 
 const Card = (props) => {
-    console.log(props)
+    // console.log(props)
     const { name, age, picture, address, time } = props.exercise
     return (
         <div className='card-container'>

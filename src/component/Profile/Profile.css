@@ -52,13 +52,15 @@
 
 }
 
-.break-time {
+.break-time button {
     display: grid;
     background-color: white;
     border-radius: 50%;
     height: 50px;
     width: 50px;
     align-content: center;
+    border: none;
+    font-weight: 750;
 
 
 }
@@ -83,5 +85,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: whitesmoke;
-
+    margin-bottom: 10px;
+    border-radius: 10px;
 }

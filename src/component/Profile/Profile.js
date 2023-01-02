@@ -1,4 +1,6 @@
 import React from 'react';
+import Break from '../Breack/Break';
+import Working from '../Working/Working';
 import "./Profile.css"
 
 const Profile = () => {
@@ -14,7 +16,7 @@ const Profile = () => {
                         <div className='profile-info'>
                             <h3>Amena Akter Ankhi (<small className='nk-name'>Picchi designer</small>)</h3>
                             <p>From <strong>Natore</strong> </p>
-                            <p>Works at <strong>Logo design</strong></p>
+                            <p>Works at <strong>Logo Designer</strong></p>
                         </div>
                     </div>
                 </section>
@@ -35,43 +37,8 @@ const Profile = () => {
                         </div>
                     </div>
                 </section>
-                {/* Add a break  section */}
-                <section className='break-container'>
-                    <h3>Add A break</h3>
-                    <div className="break">
-                        <div className='break-time'>
-                            <h5>10s</h5>
-                        </div>
-                        <div className='break-time' >
-                            <h5>20s</h5>
-                        </div>
-                        <div className='break-time'>
-                            <h5>30s</h5>
-                        </div>
-                        <div className='break-time'>
-                            <h5>40s</h5>
-                        </div>
-                        <div className='break-time'>
-                            <h5>50s</h5>
-                        </div>
-                    </div>
-                </section>
-                {/* exercise Details  */}
-                <section>
-                    <div className='exercise-details-container'>
-                        <div className='break-container'>
-                            <h3>Details</h3>
-                        </div>
-                        <div className='exercise-time'>
-                            <div>
-                                <p><strong>Time's</strong></p>
-                            </div>
-                            <div>
-                                <p><strong>2000 sc</strong></p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <Break></Break>
+                <Working></Working>
             </main>
         </div>
     );
